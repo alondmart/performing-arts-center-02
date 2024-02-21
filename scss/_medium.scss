@@ -1,0 +1,16 @@
+header {
+ padding: 2rem $gutter;
+ h1 {
+    font-size: 2rem;
+    font-weight: $boldWeight;
+}   
+}
+
+// navigation stuff starts
+nav {
+    ul {
+        display: flex;
+    } //end of ul
+} //end of nav stuff
+
+// NAV STUFF ISN'T WORKING IDK WHY

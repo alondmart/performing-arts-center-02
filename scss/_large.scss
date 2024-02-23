@@ -1,4 +1,13 @@
 header, nav, main {
-    max-width: 60rem;
+    max-width: 75rem;
     margin: auto;
+}
+
+div.imageParent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div.card p {
+    font-size: 1.2rem;
 }

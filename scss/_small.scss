@@ -57,7 +57,7 @@ nav {
         background-color: $activeColor ; //e88fe0 e88fd3
         color: white;
         border-radius: 5px;
-        margin: 10px 5px;
+        margin: 10px 1rem;
     } 
     a {
         display: block;
@@ -67,19 +67,51 @@ nav {
         text-decoration: none;
         font-weight: $boldWeight;
         &:hover {
-            background-color: $secondaryColor;
             color: black;
         }
 
     }
 }
 
-
+h1 {
+    margin-left: 1rem;
+}
 
 div.imageParent {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem;
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 7px 7px 0 0;
+    }
+    p {
+        margin: 0;
+        padding: .5rem;
+        background-color: $secondaryColor;
+        border-radius: 0 0 7px 7px;
+        border: none;
+
+    }
+}
+
+
+
+
+
+
+
+
+
 
 // footer stuff start
 #footerWrapper {

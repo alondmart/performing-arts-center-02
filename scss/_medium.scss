@@ -12,6 +12,18 @@ nav {
         display: flex;
         flex-direction: row;
     } //end of ul
+    li.active a {
+        background-color: $activeColor ; //e88fe0 e88fd3
+        color: white;
+        border-radius: 5px;
+        margin: 4px;
+    } 
+    a {
+        margin: 4px;
+    }
 } //end of nav stuff
 
-// NAV STUFF ISN'T WORKING IDK WHY
+div.imageParent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

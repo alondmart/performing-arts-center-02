@@ -339,15 +339,20 @@ body {
 }
 
 header {
-  display: flex;
-  align-items: flex-end;
+  align-items: center;
   padding: 1rem 16px;
   gap: 8px;
+  display: grid;
+  grid-template-columns: 62px auto 50px;
 }
 header h1 {
   margin: 0;
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+header a:hover {
+  background-color: rgb(167, 167, 167);
+  border-radius: 5px;
 }
 
 #navWrapper {
@@ -385,7 +390,7 @@ h1 {
 
 div.imageParent {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr, 100px;
 }
 
 div.card {

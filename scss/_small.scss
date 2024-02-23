@@ -28,14 +28,20 @@ body {
 }
 
 header {
-    display: flex;
-    align-items: flex-end;
+    // display: flex;
+    align-items: center;
     padding: 1rem $gutter;
     gap: 8px;
+    display: grid;
+    grid-template-columns: 62px auto 50px;
     h1 {
         margin: 0;
-        font-size: 1.2rem;
-        font-weight: $normalWeight;
+        font-size: 1.5rem;
+        font-weight: $boldWeight;
+    }
+    a:hover {
+        background-color: rgb(167, 167, 167);
+        border-radius: 5px;
     }
 }
 
@@ -69,7 +75,6 @@ nav {
         &:hover {
             color: black;
         }
-
     }
 }
 
@@ -79,7 +84,7 @@ h1 {
 
 div.imageParent {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr, min(100px)
 }
 
 

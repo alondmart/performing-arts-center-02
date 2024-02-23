@@ -390,7 +390,8 @@ h1 {
 
 div.imageParent {
   display: grid;
-  grid-template-columns: 1fr, 100px;
+  grid-template-columns: 1fr;
+  min-width: 100px;
 }
 
 div.card {
